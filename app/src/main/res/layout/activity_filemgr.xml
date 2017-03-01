@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_filemgr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/clear_garbage_rela_height"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorLightGreen">
+
+        <TextView
+            android:id="@+id/file_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/clear_garbage_txt_size1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/file_txt"
+            android:layout_toLeftOf="@id/file_txt"
+            android:text="@string/have_find_out"
+            android:textSize="@dimen/clear_garbage_txt_size2" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <RelativeLayout
+                android:id="@+id/allSoftware"
+                style="@style/FileMgrScrRelaStyle">
+
+                <TextView
+                    android:id="@+id/file_all_txt"
+                    style="@style/FileMgrScrRelaTxt1Style"/>
+
+                <TextView
+                    android:id="@+id/file_all_txt_size"
+                    android:layout_toRightOf="@+id/file_all_txt"
+                    style="@style/FileMgrScrRelaTxt2Style"/>
+
+                <ImageView
+                    style="@style/FileMgrScrRelaImgStyle"
+                    android:src="@mipmap/ic_arrows_right"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/documentSoftware"
+                style="@style/FileMgrScrRelaStyle">
+
+                <TextView
+                    android:id="@+id/file_document_txt"
+                    style="@style/FileMgrScrRelaTxt1Style"/>
+
+                <TextView
+                    android:id="@+id/file_document_txt_size"
+                    android:layout_toRightOf="@+id/file_document_txt"
+                    style="@style/FileMgrScrRelaTxt2Style"/>
+
+                <ImageView
+                    style="@style/FileMgrScrRelaImgStyle"
+                    android:src="@mipmap/ic_arrows_right"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/videoSoftware"
+                style="@style/FileMgrScrRelaStyle">
+
+                <TextView
+                    android:id="@+id/file_video_txt"
+                    style="@style/FileMgrScrRelaTxt1Style"/>
+
+                <TextView
+                    android:id="@+id/file_video_txt_size"
+                    android:layout_toRightOf="@+id/file_video_txt"
+                    style="@style/FileMgrScrRelaTxt2Style"/>
+
+                <ImageView
+                    style="@style/FileMgrScrRelaImgStyle"
+                    android:src="@mipmap/ic_arrows_right"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/audioSoftware"
+                style="@style/FileMgrScrRelaStyle">
+
+                <TextView
+                    android:id="@+id/file_audio_txt"
+                    style="@style/FileMgrScrRelaTxt1Style"/>
+
+                <TextView
+                    android:id="@+id/file_audio_txt_size"
+                    android:layout_toRightOf="@+id/file_audio_txt"
+                    style="@style/FileMgrScrRelaTxt2Style"/>
+
+                <ImageView
+                    style="@style/FileMgrScrRelaImgStyle"
+                    android:src="@mipmap/ic_arrows_right"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/imageSoftware"
+                style="@style/FileMgrScrRelaStyle">
+
+                <TextView
+                    android:id="@+id/file_image_txt"
+                    style="@style/FileMgrScrRelaTxt1Style"/>
+
+                <TextView
+                    android:id="@+id/file_image_txt_size"
+                    android:layout_toRightOf="@+id/file_image_txt"
+                    style="@style/FileMgrScrRelaTxt2Style"/>
+
+                <ImageView
+                    style="@style/FileMgrScrRelaImgStyle"
+                    android:src="@mipmap/ic_arrows_right"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

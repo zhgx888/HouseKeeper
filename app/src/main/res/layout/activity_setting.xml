@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/activity_app_set"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                style="@style/AppSetRelaStyle"
+                >
+
+                <TextView
+                    android:id="@+id/txt_startingUp"
+                    style="@style/AppSetTxtStyle"
+                    android:text="@string/set_startingUp"/>
+
+                <ToggleButton
+                    android:id="@+id/img_startingUp"
+                    style="@style/AppSetImgStyle1"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/AppSetRelaStyle">
+
+                <TextView
+                    android:id="@+id/txt_notifyIcon"
+                    style="@style/AppSetTxtStyle"
+                    android:text="@string/set_notifyIcon"/>
+
+                <ToggleButton
+                    android:id="@+id/img_notifyIcon"
+                    style="@style/AppSetImgStyle1"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/AppSetRelaStyle">
+
+                <TextView
+                    android:id="@+id/txt_pushMessage"
+                    style="@style/AppSetTxtStyle"
+                    android:text="@string/set_pushMessage"/>
+
+                <ToggleButton
+                    android:id="@+id/img_pushMessage"
+                    style="@style/AppSetImgStyle1"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rela_help"
+                style="@style/AppSetRelaStyle">
+
+                <TextView
+                    android:id="@+id/txt_help"
+                    style="@style/AppSetTxtStyle"
+                    android:text="@string/set_help"/>
+
+                <ImageView
+                    style="@style/AppSetImgStyle2"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/AppSetRelaStyle">
+
+                <TextView
+                    android:id="@+id/txt_feedback"
+                    style="@style/AppSetTxtStyle"
+                    android:text="@string/set_feedback"/>
+
+                <ImageView
+                    style="@style/AppSetImgStyle2"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/AppSetRelaStyle">
+
+                <TextView
+                    android:id="@+id/txt_friendsShare"
+                    style="@style/AppSetTxtStyle"
+                    android:text="@string/set_friendsShare"/>
+
+                <ImageView
+                    style="@style/AppSetImgStyle2"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/AppSetRelaStyle">
+
+                <TextView
+                    android:id="@+id/txt_versionUpdate"
+                    style="@style/AppSetTxtStyle"
+                    android:text="@string/set_versionUpdate"/>
+
+                <ImageView
+                    style="@style/AppSetImgStyle2"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rela_about"
+                style="@style/AppSetRelaStyle">
+
+                <TextView
+                    android:id="@+id/txt_about"
+                    style="@style/AppSetTxtStyle"
+                    android:text="@string/set_about"/>
+
+                <ImageView
+                    style="@style/AppSetImgStyle2"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

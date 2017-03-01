@@ -1,0 +1,145 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--All activity size-->
+    <dimen name="layout_width_zero">0dp</dimen>
+    <dimen name="layout_height_zero">0dp</dimen>
+
+    <!--Style activity size-->
+    <dimen name="homeImgStyle_padding">3dp</dimen>
+    <dimen name="homeTxtStyle_layout_margin">2dp</dimen>
+    <dimen name="homeTxtStyle_padding">10dp</dimen>
+
+    <!--Style phonebook list activity size-->
+    <dimen name="phonebook_list_activity_lin_marginLeft">16dp</dimen>
+
+    <!--Style phonebook list activity style size-->
+    <dimen name="phonebook_list_activity_style_paddingLeft">16dp</dimen>
+
+    <!--Style phonebook list style size-->
+    <dimen name="phonebook_list_style_paddingLeft">16dp</dimen>
+    <dimen name="phonebook_list_style_paddingRight">16dp</dimen>
+
+    <!--Style phonebook list style style size-->
+    <dimen name="phonebook_list_style_style_txt_size">20sp</dimen>
+    <dimen name="phonebook_list_style_style_txt_height">50dp</dimen>
+    <dimen name="list_style_style_height">30dp</dimen>
+
+    <!--Style setting style size-->
+
+    <dimen name="setting_rela_height">60dp</dimen>
+
+
+    <!--Style list activity size-->
+    <dimen name="list_txt_size">16sp</dimen>
+
+
+    <!--Style phonebook grid activity size-->
+    <dimen name="phonebook_grid_spacing">1pt</dimen>
+
+
+    <!--Style grid activity size-->
+    <dimen name="grid_padding">2pt</dimen>
+    <dimen name="grid_txt_size">20sp</dimen>
+    <dimen name="grid_txt_height">100dp</dimen>
+    <dimen name="grid_txt_paddingLeft">1pt</dimen>
+
+    <!--Style home activity size-->
+    <dimen name="home_marginBottom">15dp</dimen>
+    <dimen name="home_head_text_size">18sp</dimen>
+    <dimen name="home_lin_layout_margin_vertical">10dp</dimen>
+    <dimen name="home_lin_layout_margin_horizontal">30dp</dimen>
+    <dimen name="home_rel_layout_width">220dp</dimen>
+    <dimen name="home_rel_layout_height">220dp</dimen>
+    <dimen name="home_rel_layout_margin">20dp</dimen>
+    <dimen name="home_rel_padding">10dp</dimen>
+    <dimen name="home_rel_img_layout_margin">6dp</dimen>
+    <dimen name="home_rel_txt_root_layout_margin">30dp</dimen>
+    <dimen name="home_rel_txt_root_textSize">18sp</dimen>
+    <dimen name="home_rel_txt_percentage_textSize">45sp</dimen>
+
+    <!--Style list activity size-->
+    <dimen name="app_set_txt_size">24sp</dimen>
+    <dimen name="app_set_txt_height">50dp</dimen>
+    <dimen name="app_set_img_witch">50dp</dimen>
+    <dimen name="app_set_img_height">25dp</dimen>
+
+    <!--Style clear_garbag activity size-->
+    <dimen name="clear_garbage_rela_height">150dp</dimen>
+    <dimen name="clear_garbage_txt_size1">40sp</dimen>
+    <dimen name="clear_garbage_txt_size2">16sp</dimen>
+
+    <!--Style custom_layout_style_bottom_marquee size-->
+    <dimen name="custom_layout_style_bottom_marquee_height">50dp</dimen>
+    <dimen name="custom_layout_style_bottom_marquee_txt_size">16sp</dimen>
+
+    <!--Style lead_img style size-->
+    <dimen name="lead_btn_layout_marginRight">10dp</dimen>
+    <dimen name="lead_btn_layout_marginTop">40dp</dimen>
+    <dimen name="lead_line_layout_margin">80dp</dimen>
+
+    <!--Style lead style size-->
+    <dimen name="lead_layout_style_marginLeft">2dp</dimen>
+    <dimen name="lead_layout_style_marginRight">2dp</dimen>
+
+    <!--Style softmgr_rela_img style size-->
+    <dimen name="softmgr_rela_img_style_width">20dp</dimen>
+    <dimen name="softmgr_rela_img_style_height">20dp</dimen>
+
+    <!--Style softmgr_rela_txt style size-->
+    <dimen name="softmgr_rela_txt_style_height">20dp</dimen>
+    <dimen name="softmgr_rela_txt_style_textsize">16sp</dimen>
+
+    <!--Style softmgr_line_rela style size-->
+    <dimen name="softmgr_line_rela_style_height">90dp</dimen>
+
+    <!--Style softmgr_line_rela_txt1 style size-->
+    <dimen name="softmgr_line_rela_txt_style_height1">30dp</dimen>
+
+    <!--Style softmgr_line_rela_txt2 style size-->
+    <dimen name="softmgr_line_rela_txt_style_height2">30dp</dimen>
+
+    <!--Style softmgr_layout size-->
+    <dimen name="softmgr_layout_margin">20dp</dimen>
+    <dimen name="softmgr_line_layout_height1">160dp</dimen>
+    <dimen name="softmgr_line_smdv_layout_width">120dp</dimen>
+    <dimen name="softmgr_line_smdv_layout_height">120dp</dimen>
+    <dimen name="softmgr_line_line_paddingLeft">10dp</dimen>
+    <dimen name="softmgr_line_layout_height2">180dp</dimen>
+
+
+    <!--Style softmgr_rela2 style size-->
+    <dimen name="softmgr_rela2_style_height">80dp</dimen>
+
+    <!--Style softmgr_rela2_txt style size-->
+    <dimen name="softmgr_rela2_txt_style_size">24sp</dimen>
+    <dimen name="softmgr_rela2_txt_style_height">80dp</dimen>
+    <dimen name="softmgr_rela2_img_style_height">80dp</dimen>
+
+    <!--Style filemgr_rela_txt style size-->
+    <dimen name="filemgr_rela_style_height">80dp</dimen>
+    <dimen name="filemgr_rela_txt1_style_size">24sp</dimen>
+    <dimen name="filemgr_rela_txt1_style_height">80dp</dimen>
+    <dimen name="filemgr_rela_txt2_style_size">24sp</dimen>
+    <dimen name="filemgr_rela_txt2_style_height">80dp</dimen>
+    <dimen name="filemgr_rela_img_style_height">80dp</dimen>
+    <!--<dimen name="home_Rel_text_padding">3dp</dimen>-->
+
+    <!--Style progressbae_phone_space layout size-->
+    <dimen name="progressbae_phone_space_radius">5dp</dimen>
+    <!--Style progressbae_phone_space layout size-->
+    <dimen name="progressbae_phone_mgr_radius">10dp</dimen>
+
+    <!--Style softmgr_appshow_list_style layout size-->
+    <dimen name="softmgr_appshow_layout_height">50dp</dimen>
+    <dimen name="softmgr_appshow_txt_name">18sp</dimen>
+
+    <!--Style run_app_list_style layout size-->
+    <dimen name="run_app_layout_height">50dp</dimen>
+    <dimen name="run_app_txt_name">18sp</dimen>
+
+
+
+</resources>

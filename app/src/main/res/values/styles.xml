@@ -1,0 +1,229 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="HomeLinStyle">
+        <!-- My HomeLinStyle. - - - Home界面下方每行按键风格 -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/layout_height_zero</item>
+        <item name="android:layout_weight">@string/num_two</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="HomeTxtStyle">
+        <!-- My HomeTxtStyle. - - - Home界面下方每个按键风格  -->
+        <item name="android:layout_width">@dimen/layout_width_zero</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">@string/num_one</item>
+        <item name="android:layout_margin">@dimen/homeTxtStyle_layout_margin</item>
+        <item name="android:padding">@dimen/homeTxtStyle_padding</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/home_entry_item_normal</item>
+        <item name="android:onClick">onClickHome</item>
+    </style>
+
+    <style name="HomeImgStyle">
+        <!-- My HomeImgStyle. - - - Home界面上部图片风格 -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">@dimen/homeImgStyle_padding</item>
+        <item name="android:paddingRight">@dimen/homeImgStyle_padding</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="PhoneBookListTxtStyle">
+        <!-- My PhoneBookListTxtStyle. - - - 电话本风格 -->
+        <item name="android:layout_width">@dimen/layout_width_zero</item>
+        <item name="android:layout_height">@dimen/phonebook_list_style_style_txt_height</item>
+        <item name="android:layout_weight">@string/num_one</item>
+        <item name="android:maxLines">@string/num_one</item>
+        <item name="android:textSize">@dimen/phonebook_list_style_style_txt_size</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ListTxtStyle">
+        <!-- My ListTxtStyle. - - - 电话本风格 -->
+        <item name="android:layout_width">@dimen/layout_width_zero</item>
+        <item name="android:layout_height">@dimen/list_style_style_height</item>
+        <item name="android:layout_weight">@string/num_one</item>
+        <item name="android:maxLines">@string/num_one</item>
+        <item name="android:textSize">@dimen/list_txt_size</item>
+    </style>
+
+    <style name="AppSetRelaStyle">
+        <!-- My AppSetRelaStyle. - - - 设置界面每行风格 -->
+        <item name="android:contentDescription">设置界面的每一条</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/setting_rela_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/home_entry_item_normal</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:onClick">onClickSetting</item>
+        <!--<item name="android:orientation">horizontal</item>-->
+    </style>
+
+    <style name="AppSetTxtStyle">
+        <!-- My AppSetTxtStyle. - - - 设置界面左边文本风格 -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/app_set_txt_height</item>
+        <item name="android:maxLines">@string/num_one</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/app_set_txt_size</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="AppSetImgStyle1">
+        <!-- My AppSetImgStyle1. - - - 设置界面右边按钮风格 -->
+        <item name="android:layout_width">@dimen/app_set_img_witch</item>
+        <item name="android:layout_height">@dimen/app_set_img_height</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textOff"></item>
+        <item name="android:textOn"></item>
+        <item name="android:background">@drawable/appset_btn_drawble</item>
+        <!--<item name="android:onClick">true</item>-->
+    </style>
+
+    <style name="AppSetImgStyle2">
+        <!-- My AppSetImgStyle2. - - - 设置界面右边按钮风格 -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/app_set_img_height</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:src">@mipmap/ic_arrows_right</item>
+    </style>
+
+    <style name="LeadImgStyle">
+        <!-- My LeadImgStyle. - - - 导航界面圆点图片风格 -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/lead_layout_style_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/lead_layout_style_marginRight</item>
+        <item name="android:src">@mipmap/adware_style_default</item>
+    </style>
+
+    <style name="SoftmgerRelaStyle">
+        <!-- My SoftmgerRelaStyle. - - - 软件管理左上角相对布局风格 -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/layout_height_zero</item>
+        <item name="android:layout_weight">@string/num_one</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="SoftmgerRelaImgStyle">
+        <!-- My SoftmgerRelaImgStyle. - - - 软件管理左上角相对布局图片风格 -->
+        <item name="android:layout_width">@dimen/softmgr_rela_img_style_width</item>
+        <item name="android:layout_height">@dimen/softmgr_rela_img_style_height</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="SoftmgerRelaTxtStyle">
+        <!-- My SoftmgerRelaImgStyle. - - - 软件管理左上角相对布局文本风格 -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/softmgr_rela_txt_style_height</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/softmgr_rela_txt_style_textsize</item>
+    </style>
+
+    <style name="SoftmgrLineRelaStyle">
+        <!-- My SoftmgrLineRelaStyle. - - - 软件管理中间线性布局相对布局风格 -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/softmgr_line_rela_style_height</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="SoftmgrLineRelaTxtStyle1">
+        <!-- My SoftmgrLineRelaTxtStyle. - - - 软件管理中间线性布局相对布局文本1风格 -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/softmgr_line_rela_txt_style_height1</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+
+    <style name="SoftmgrLineRelaTxtStyle2">
+        <!-- My SoftmgrLineRelaTxtStyle. - - - 软件管理中间线性布局相对布局文本1风格 -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/softmgr_line_rela_txt_style_height2</item>
+        <item name="android:gravity">top</item>
+    </style>
+
+    <style name="SoftmgerScrRelaStyle">
+        <!-- My SoftmgerScrRelaStyle. - - - 软件管理下方相对布局图片风格 -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/softmgr_rela2_style_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <!--<item name="android:orientation">horizontal</item>-->
+    </style>
+
+    <style name="SoftmgerScrRelaTxtStyle">
+        <!-- My FileMgrScrRelaTxtStyle. - - - 文件管理下方相对布局文本风格 -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/softmgr_rela_txt_style_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/softmgr_rela_txt_style_textsize</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="SoftmgerScrRelaImgStyle">
+        <!-- My FileMgrScrRelaTxtImgStyle. - - - 文件管理下方相对布局图片风格 -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/softmgr_rela_img_style_height</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="FileMgrScrRelaStyle">
+        <!-- My SoftmgerScrRelaStyle. - - - 软件管理下方相对布局图片风格 -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/filemgr_rela_style_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <!--<item name="android:orientation">horizontal</item>-->
+    </style>
+
+    <style name="FileMgrScrRelaTxt1Style">
+        <!-- My FileMgrScrRelaTxtStyle. - - - 文件管理下方相对布局文本风格 -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/filemgr_rela_txt1_style_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/filemgr_rela_txt1_style_size</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="FileMgrScrRelaTxt2Style">
+        <!-- My FileMgrScrRelaTxtStyle. - - - 文件管理下方相对布局文本风格 -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/filemgr_rela_txt2_style_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/filemgr_rela_txt2_style_size</item>
+    </style>
+
+    <style name="FileMgrScrRelaImgStyle">
+        <!-- My FileMgrScrRelaTxtImgStyle. - - - 文件管理下方相对布局图片风格 -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/filemgr_rela_img_style_height</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="20dp"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:gravity="center"-->
+    <!--android:text="手机内置空间"-->
+    <!--android:textSize="16dp"/>-->
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/run_app_chk"
+        android:layout_width="@dimen/layout_width_zero"
+        android:layout_height="@dimen/run_app_layout_height"
+        android:layout_weight="@string/num_one"/>
+
+    <ImageView
+        android:id="@+id/run_app_img"
+        android:layout_width="@dimen/layout_width_zero"
+        android:layout_height="@dimen/run_app_layout_height"
+        android:layout_weight="@string/num_one"/>
+
+    <LinearLayout
+        android:layout_width="@dimen/layout_width_zero"
+        android:layout_height="@dimen/run_app_layout_height"
+        android:layout_weight="@string/num_four"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/layout_width_zero"
+            android:layout_height="@dimen/run_app_layout_height"
+            android:layout_weight="@string/num_two"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/run_app_txt_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_height_zero"
+                android:layout_weight="@string/num_one"
+                android:gravity="center_vertical"
+                android:maxLines="@string/num_one"/>
+
+            <TextView
+                android:id="@+id/run_app_txt_memory"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_height_zero"
+                android:layout_weight="@string/num_one"
+                android:gravity="center_vertical"
+                android:maxLines="@string/num_one"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/run_app_txt_type"
+            android:layout_width="@dimen/layout_width_zero"
+            android:layout_height="match_parent"
+            android:layout_weight="@string/num_one"
+            android:gravity="center_vertical"
+            android:maxLines="@string/num_one"/>
+    </LinearLayout>
+</LinearLayout>

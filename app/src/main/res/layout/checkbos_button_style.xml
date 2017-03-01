@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/all_check"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/custom_layout_style_bottom_marquee_height"
+              android:orientation="horizontal"
+              android:layout_alignParentBottom="true">
+    <CheckBox
+        android:id="@+id/chk_all"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/btn_del"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="@string/num_one"
+        android:background="@drawable/notification_information_progress_blue_long"
+        android:gravity="center"
+        android:textSize="@dimen/custom_layout_style_bottom_marquee_txt_size"
+        android:text="@string/soft_list_removeSoftware"/>
+
+</LinearLayout>

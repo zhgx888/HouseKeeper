@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:paddingLeft="@dimen/phonebook_list_style_paddingLeft"
+              android:paddingRight="@dimen/phonebook_list_style_paddingRight"
+    android:background="@drawable/home_entry_item_normal">
+
+    <TextView
+        android:id="@+id/txt_name"
+        style="@style/ListTxtStyle"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/txt_number"
+        style="@style/ListTxtStyle"
+        android:gravity="center_vertical|right"/>
+</LinearLayout>

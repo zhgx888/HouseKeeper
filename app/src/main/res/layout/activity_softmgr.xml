@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="@dimen/softmgr_layout_margin"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/softmgr_line_layout_height1"
+        android:orientation="horizontal">
+
+        <edu.feicui.app.phone.view.SoftMgrDrawView
+            android:id="@+id/soft_dv"
+            android:layout_width="@dimen/softmgr_line_smdv_layout_width"
+            android:layout_height="@dimen/softmgr_line_smdv_layout_height"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/softmgr_line_line_paddingLeft">
+
+            <RelativeLayout
+                style="@style/SoftmgerRelaStyle">
+
+                <ImageView
+                    style="@style/SoftmgerRelaImgStyle"
+                    android:background="@color/colorSkyBlue"/>
+
+                <TextView
+                    style="@style/SoftmgerRelaTxtStyle"
+                    android:text="@string/soft_builtInSpace"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/SoftmgerRelaStyle">
+
+                <ImageView
+                    style="@style/SoftmgerRelaImgStyle"
+                    android:background="@color/colorLightGreen"/>
+
+                <TextView
+                    style="@style/SoftmgerRelaTxtStyle"
+                    android:text="@string/soft_outerSpace"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/softmgr_line_layout_height2"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            style="@style/SoftmgrLineRelaStyle">
+
+            <TextView
+                style="@style/SoftmgrLineRelaTxtStyle1"
+                android:layout_above="@+id/progressBar_builtInSpace"
+                android:text="@string/soft_builtInSpace"/>
+
+            <ProgressBar
+                android:id="@+id/progressBar_builtInSpace"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:progressDrawable="@drawable/progressbar_phone_space"/>
+
+            <TextView
+                android:id="@+id/txt_builtInSpace"
+                style="@style/SoftmgrLineRelaTxtStyle2"
+                android:layout_alignRight="@+id/progressBar_builtInSpace"
+                android:layout_below="@+id/progressBar_builtInSpace"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/SoftmgrLineRelaStyle">
+
+            <TextView
+                style="@style/SoftmgrLineRelaTxtStyle1"
+                android:layout_above="@+id/progressBar_outerSpace"
+                android:text="@string/soft_outerSpace"/>
+
+            <ProgressBar
+                android:id="@+id/progressBar_outerSpace"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:progressDrawable="@drawable/progressbar_phone_space"/>
+
+            <TextView
+                android:id="@+id/txt_outerSpace"
+                style="@style/SoftmgrLineRelaTxtStyle2"
+                android:layout_alignRight="@+id/progressBar_outerSpace"
+                android:layout_below="@+id/progressBar_outerSpace"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/allSoftware"
+                style="@style/SoftmgerScrRelaStyle">
+
+                <TextView
+                    style="@style/SoftmgerScrRelaTxtStyle"
+                    android:text="@string/soft_allSoftware"/>
+
+                <ImageView
+                    style="@style/SoftmgerScrRelaImgStyle"
+                    android:src="@mipmap/ic_arrows_right"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/systemSoftware"
+                style="@style/SoftmgerScrRelaStyle">
+
+                <TextView
+                    style="@style/SoftmgerScrRelaTxtStyle"
+                    android:text="@string/soft_systemSoftware"/>
+
+                <ImageView
+                    style="@style/SoftmgerScrRelaImgStyle"
+                    android:src="@mipmap/ic_arrows_right"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/userSoftware"
+                style="@style/SoftmgerScrRelaStyle">
+
+                <TextView
+                    style="@style/SoftmgerScrRelaTxtStyle"
+                    android:text="@string/soft_userSoftware"/>
+
+                <ImageView
+                    style="@style/SoftmgerScrRelaImgStyle"
+                    android:src="@mipmap/ic_arrows_right"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

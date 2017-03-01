@@ -1,0 +1,70 @@
+<resources>0
+    <string name="app_name">HouseKeeper</string>
+    <string name="home_phoneSpeedGo">SpeedGo</string>
+    <string name="home_softwareMgr">SoftwareMgr</string>
+    <string name="home_phoneTest">PhoneTest</string>
+    <string name="home_addressList">PhoneList</string>
+    <string name="home_fileMgr">FileMgr</string>
+    <string name="home_clearGarbage">LearGarbage</string>
+
+    <string name="lead_btn_jump">Jump</string>
+    <string name="lead_a_key_to_accelerate">AKeyToAccelerate</string>
+    <string name="lead_deep_clean">DeepClean</string>
+    <string name="lead_all_software">AllSoftware</string>
+
+    <string name="setting">Setting</string>
+
+    <string name="set_startingUp">StartingUp</string>
+    <string name="set_notifyIcon">NotifyIcon</string>
+    <string name="set_pushMessage">PushMessage</string>
+    <string name="set_help">Help</string>
+    <string name="set_feedback">Feedback</string>
+    <string name="set_friendsShare">FriendsShare</string>
+    <string name="set_versionUpdate">VersionUpdate</string>
+    <string name="set_about">About</string>
+
+    <string name="app_current_version">CurrentVersion：</string>
+    <string name="app_current_version_no">NoCurrentVersion</string>
+
+    <string name="speedup_brand">brand</string>
+    <string name="speedup_SDK">SDK</string>
+    <string name="speedup_availableMemory">AvailableMemory</string>
+    <string name="speedup_allMemory">AllMemory</string>
+    <string name="speedup_clearMaster">ClearMaster</string>
+
+    <string name="soft_builtInSpace">BuiltInSpace</string>
+    <string name="soft_outerSpace">OuterSpace</string>
+    <string name="soft_available">Available</string>
+    <string name="soft_allSoftware">AllSoftware</string>
+    <string name="soft_systemSoftware">SystemSoftware</string>
+    <string name="soft_userSoftware">UserSoftware</string>
+
+    <string name="soft_list_removeSoftware">RemoveSoftware</string>
+
+    <string name="name">PhoneName：</string>
+    <string name="number">PhoneNumber：</string>
+
+    <string name="have_find_out">HaveFindOut</string>
+
+    <string name="file_all">All</string>
+    <string name="file_document">Document</string>
+    <string name="file_video">Video</string>
+    <string name="file_audio">Audio</string>
+    <string name="file_image">Image</string>
+
+    <string name="num_one">1</string>
+    <string name="num_two">2</string>
+    <string name="num_three">3</string>
+    <string name="num_four">4</string>
+    <string name="num_six">6</string>
+    <string name="letter_B">B</string>
+    <string name="letter_KB">KB</string>
+    <string name="letter_M">M</string>
+    <string name="letter_G">G</string>
+    <string name="symbol_percent">%</string>
+    <string name="symbol_colon">:</string>
+    <string name="symbol_slash">/</string>
+    <!--Phonebook grid activity size-->
+    <string name="phonebook_grid_numColumns">2</string>
+
+</resources>

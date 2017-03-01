@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginBottom="@dimen/home_marginBottom"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/layout_height_zero"-->
+        <!--android:layout_weight="@string/num_one">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/img_about"-->
+            <!--style="@style/HomeImgStyle"-->
+            <!--android:src="@mipmap/ic_launcher"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="@dimen/layout_width_zero"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="@string/num_one"-->
+            <!--android:gravity="center"-->
+            <!--android:text="@string/app_name"-->
+            <!--android:textColor="@color/colorGray"-->
+            <!--android:textSize="@dimen/home_head_text_size"-->
+            <!--android:textStyle="bold"/>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/img_set"-->
+            <!--style="@style/HomeImgStyle"-->
+            <!--android:src="@mipmap/ic_child_configs"/>-->
+    <!--</LinearLayout>-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/home_entry_item_normal"
+    android:layout_marginTop="@dimen/home_lin_layout_margin_vertical"
+    android:layout_marginBottom="@dimen/home_lin_layout_margin_vertical"
+    android:layout_marginLeft="@dimen/home_lin_layout_margin_horizontal"
+    android:layout_marginRight="@dimen/home_lin_layout_margin_horizontal">
+    <RelativeLayout
+        android:layout_width="@dimen/home_rel_layout_width"
+        android:layout_height="@dimen/home_rel_layout_height"
+        android:layout_margin="@dimen/home_rel_layout_margin"
+        android:gravity="center"
+        android:padding="@dimen/home_rel_padding">
+
+        <edu.feicui.app.phone.view.HomeDrawView
+            android:id="@+id/drawView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/img_speedUp_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/home_rel_img_layout_margin"
+            android:background="@drawable/home_draw_drawview"
+            android:clickable="true"
+            android:onClick="onClickHome"/>
+
+        <TextView
+            android:id="@+id/txt_root"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/home_rel_txt_root_layout_margin"
+            android:gravity="center_horizontal|bottom"
+            android:text="@string/home_phoneSpeedGo"
+            android:textSize="@dimen/home_rel_txt_root_textSize"
+            />
+
+        <TextView
+            android:id="@+id/txt_percentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/home_rel_txt_percentage_textSize"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
+
+
+    <LinearLayout style="@style/HomeLinStyle">
+
+        <TextView
+            android:id="@+id/phoneSpeedGo"
+            style="@style/HomeTxtStyle"
+            android:drawableTop="@mipmap/icon_rocket"
+            android:text="@string/home_phoneSpeedGo" />
+
+        <TextView
+            android:id="@+id/softwareManagement"
+            style="@style/HomeTxtStyle"
+            android:drawableTop="@mipmap/icon_softmgr"
+            android:text="@string/home_softwareMgr" />
+
+        <TextView
+            android:id="@+id/phoneTest"
+            style="@style/HomeTxtStyle"
+            android:drawableTop="@mipmap/icon_phonemgr"
+            android:text="@string/home_phoneTest" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/HomeLinStyle">
+
+        <TextView
+            android:id="@+id/communicationBook"
+            style="@style/HomeTxtStyle"
+            android:drawableTop="@mipmap/icon_telmgr"
+            android:text="@string/home_addressList"/>
+
+        <TextView
+            android:id="@+id/ileManagement"
+            style="@style/HomeTxtStyle"
+            android:drawableTop="@mipmap/icon_filemgr"
+            android:text="@string/home_fileMgr"/>
+
+        <TextView
+            android:id="@+id/clearGarbage"
+            style="@style/HomeTxtStyle"
+            android:drawableTop="@mipmap/icon_sdclean"
+            android:text="@string/home_clearGarbage"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,71 @@
+<resources>0
+    <string name="app_name">手机管家</string>
+    <string name="home_phoneSpeedGo">手机加速</string>
+    <string name="home_softwareMgr">软件管理</string>
+    <string name="home_phoneTest">手机检测</string>
+    <string name="home_addressList">通讯大全</string>
+    <string name="home_fileMgr">文件管理</string>
+    <string name="home_clearGarbage">垃圾清理</string>
+
+    <string name="lead_btn_jump">跳过</string>
+    <string name="lead_a_key_to_accelerate">一键加速</string>
+    <string name="lead_deep_clean">深度清理</string>
+    <string name="lead_all_software">所有软件</string>
+
+    <string name="setting">设置</string>
+
+    <string name="set_startingUp">开机启动</string>
+    <string name="set_notifyIcon">通知图标</string>
+    <string name="set_pushMessage">消息推送</string>
+    <string name="set_help">帮助说明</string>
+    <string name="set_feedback">意见反馈</string>
+    <string name="set_friendsShare">好友分享</string>
+    <string name="set_versionUpdate">版本更新</string>
+    <string name="set_about">关于我们</string>
+
+    <string name="app_current_version">当前版本号：</string>
+    <string name="app_current_version_no">没有获取到当前版本号</string>
+
+    <string name="speedup_brand">品牌</string>
+    <string name="speedup_SDK">SDK</string>
+    <string name="speedup_availableMemory">可用内存</string>
+    <string name="speedup_allMemory">总内存</string>
+    <string name="speedup_clearMaster">一键清理</string>
+
+    <string name="soft_builtInSpace">手机内置空间</string>
+    <string name="soft_outerSpace">外置存储空间</string>
+    <string name="soft_available">可用</string>
+    <string name="soft_allSoftware">所有软件</string>
+    <string name="soft_systemSoftware">系统软件</string>
+    <string name="soft_userSoftware">用户软件</string>
+
+    <string name="soft_list_removeSoftware">卸载所选软件</string>
+
+    <string name="name">名称：</string>
+    <string name="number">电话号码：</string>
+
+    <string name="have_find_out">已发现</string>
+
+    <string name="file_all">全部</string>
+    <string name="file_document">文档</string>
+    <string name="file_video">视频</string>
+    <string name="file_audio">音频</string>
+    <string name="file_image">图像</string>
+
+    <string name="num_one">1</string>
+    <string name="num_two">2</string>
+    <string name="num_three">3</string>
+    <string name="num_four">4</string>
+    <string name="num_six">6</string>
+    <string name="letter_B">B</string>
+    <string name="letter_KB">KB</string>
+    <string name="letter_M">M</string>
+    <string name="letter_G">G</string>
+    <string name="symbol_percent">%</string>
+    <string name="symbol_colon">:</string>
+    <string name="symbol_slash">/</string>
+
+    <!--Phonebook grid activity size-->
+    <string name="phonebook_grid_numColumns">2</string>
+
+</resources>

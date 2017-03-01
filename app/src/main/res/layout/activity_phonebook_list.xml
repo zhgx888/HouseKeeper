@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/activity_assets"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_entry_item_normal"
+        >
+
+        <TextView
+            android:id="@+id/txt_name"
+            style="@style/PhoneBookListTxtStyle"
+            android:text="@string/name"
+            android:layout_marginLeft="@dimen/phonebook_list_activity_lin_marginLeft"/>
+
+        <TextView
+            android:id="@+id/txt_number"
+            style="@style/PhoneBookListTxtStyle"
+            android:text="@string/number"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>
